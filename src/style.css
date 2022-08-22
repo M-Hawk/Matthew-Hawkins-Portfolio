@@ -2,13 +2,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* remove this height if required */
-    /* height: 100%; */
+    /* DELETE THIS BELOW IF REQUIRED */
+    height: 100%; 
 }
 
 body {
-    /* remove this min height if required */
-    /* min-height: 100%;  */
+    /* DELETE THIS BELOW IF REQUIRED */
+    min-height: 100vh; 
     display: flex;
     flex-direction: column;
     background-image:url(images/adam-kool-ndN00KmbJ1c-unsplash\ 1920x1280\ MEDIUM.jpg);
@@ -18,37 +18,44 @@ body {
     background-size: cover;
 
 }
+.background-color-theme {
+    background: grey;        
+}
 /* .background-image {
 
 } */
 header {
     display: flex;
-    /* position: fixed; */
     justify-content: space-between;
+    align-items: center;
     border-bottom: 4px solid black;
-    background: grey;
-    padding: 1rem;
-    min-height: 10%;
+    padding: 0.5rem;
+    max-height: 15%;
 }
 /* TURN INTO BUTTONS  */
 nav {
     display: flex;
-    /* THIS BELOW WRECKED EVERTHING */
-    /* width: 20%; */
     justify-content: space-around;
-    min-width: 40%;
-    min-height: 40%;  
+    min-width: 220px;
+    min-height: 25px;
+    max-height: 50%;  
 }
 nav a {
     border: 2px solid black;
     text-align: center;
-    min-width: 20%;
+    min-width: 25%;
     min-height: 20%;      
     border-radius: 10%;
     }
 
+/* CHANGE FONT TYPE TO SOMETHING COOL */
+.name-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 h1 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: black;
 }
 
@@ -57,43 +64,60 @@ h1 {
 main .homepage{
     display: flex;
     min-height: 50%;
-    flex-direction: row;
-}
-main p {
-    text-align: center;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    
+}
+main div p {
+    border: 3px solid black;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    height: auto;
 }
 
 
 /* Portrait Styling */
 .portrait-photo-box {
-    width: 20%;
-    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
 }
 .portrait-photo-box img {
     border-radius: 50%;
-    width: 100%;
-    height: auto;
+    width: 50%;
+    height: 100%;
+    padding: 0.5rem;
 }
 
 
 /* Socials styling */
 .socials-container {
     display: flex;
+    flex-direction: column;
+    text-align: center;
     align-items: center;
     justify-content: center;
+    max-height: 10%;
 }
 /* Fix this socials box */
+
 .socials-container div{
     display: flex;
     align-items: center;
     justify-content: space-around;
     border: 3px solid black;
-    background: grey;
-    min-width: 20%;
+    min-width: 156px;
     min-height: 10%;
+}
+.logo-container {
+    min-width: 300px;
+}
+.socials-container div p {
+    border-bottom: 0px;
+    font-size: 1em;    
 }
 #logo {
     align-items: center;
@@ -108,16 +132,25 @@ main p {
 footer {
     display: flex;
     justify-content: center;
-    background: grey;
     text-align: center;
     font-size: 1rem;
     border-top: 2px solid black;
+    max-height: 5%;
 }
 
-/* Responsive Design
-@media screen and (min-width: 500px) and (max-width: 899px) {
-    .homepage {
-        height: 50vw;
-        flex: 50%;
+/* Responsive Design */
+
+/* Portrait Mobile Scren*/
+/* REMEMBER SHOULD BE MOBILE FIRST, SO ADD ABOVE AS ITS PRIMARILY DESKTOP TO THESE QUERIES BELOW*/
+
+
+/* Tablet Size Screen*/
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
     }
-} */
+
+/* Desktop Size Screen*/
+@media screen and (min-width: 1024px){
+
+    
+}
