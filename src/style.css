@@ -7,49 +7,88 @@
 body {
     display: flex;
     flex-direction: column;
+    background-image:url(images/adam-kool-ndN00KmbJ1c-unsplash\ 1920x1280\ MEDIUM.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    p
 }
+/* .background-image {
+
+} */
 header {
     display: flex;
+    /* position: fixed; */
     justify-content: space-between;
     border-bottom: 4px solid black;
+    background: grey;
     padding: 1rem;
+    width: 100%;
 }
 nav {
     display: flex;
-    width: 20vw;
+    width: 20%;
     justify-content: space-between;  
 }
 nav a {
-
+    border: 2px solid black;
+    /* change border design here */
+    border-radius: 10%;
     }
 
 h1 {
-    font-size: medium;
+    font-size: 1rem;
     color: black;
 }
 
-main {
-    flex-direction: column;
+/* Main styling */
+main .homepage{
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    height: 50vw;
 }
-.socials {
+
+
+/* Socials styling */
+.socials-container {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 1rem;
-    flex: 1;
+    min-height: 20%;
 }
 /* Fix this socials box */
-.socials div{
+.socials-container div{
     display: flex;
+    justify-content: space-around;
+    border: 3px solid;
+    min-width: 20%;
+    min-height: 20%;
 }
+#logo {
+    min-width: 20%;
+    min-height: 20%;    
+}
+
+/* Footer styling */
+
+
 footer {
     display: flex;
     justify-content: center;
+    background: grey;
     text-align: center;
+    font-size: 1rem;
+    border-top: 2px solid black;
 }
 
+/* Responsive Design */
+@media screen and (min-width: 500px) and (max-width: 899px) {
+    .homepage {
+        height: 50vw;
+        flex: 50%;
+    }
+}
