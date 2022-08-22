@@ -2,9 +2,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    /* remove this height if required */
+    /* height: 100%; */
 }
 
 body {
+    /* remove this min height if required */
+    /* min-height: 100%;  */
     display: flex;
     flex-direction: column;
     background-image:url(images/adam-kool-ndN00KmbJ1c-unsplash\ 1920x1280\ MEDIUM.jpg);
@@ -12,8 +16,7 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    text-align: center;
-    p
+
 }
 /* .background-image {
 
@@ -25,16 +28,22 @@ header {
     border-bottom: 4px solid black;
     background: grey;
     padding: 1rem;
-    width: 100%;
+    min-height: 10%;
 }
+/* TURN INTO BUTTONS  */
 nav {
     display: flex;
-    width: 20%;
-    justify-content: space-between;  
+    /* THIS BELOW WRECKED EVERTHING */
+    /* width: 20%; */
+    justify-content: space-around;
+    min-width: 40%;
+    min-height: 40%;  
 }
 nav a {
     border: 2px solid black;
-    /* change border design here */
+    text-align: center;
+    min-width: 20%;
+    min-height: 20%;      
     border-radius: 10%;
     }
 
@@ -43,13 +52,30 @@ h1 {
     color: black;
 }
 
+
 /* Main styling */
 main .homepage{
     display: flex;
-    flex-direction: column;
+    min-height: 50%;
+    flex-direction: row;
+}
+main p {
+    text-align: center;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
+
+
+/* Portrait Styling */
+.portrait-photo-box {
+    width: 20%;
+    height: 20%;
+}
+.portrait-photo-box img {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
 }
 
 
@@ -58,20 +84,23 @@ main .homepage{
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 20%;
 }
 /* Fix this socials box */
 .socials-container div{
     display: flex;
+    align-items: center;
     justify-content: space-around;
-    border: 3px solid;
+    border: 3px solid black;
+    background: grey;
     min-width: 20%;
-    min-height: 20%;
+    min-height: 10%;
 }
 #logo {
+    align-items: center;
     min-width: 20%;
     min-height: 20%;    
 }
+
 
 /* Footer styling */
 
@@ -85,10 +114,10 @@ footer {
     border-top: 2px solid black;
 }
 
-/* Responsive Design */
+/* Responsive Design
 @media screen and (min-width: 500px) and (max-width: 899px) {
     .homepage {
         height: 50vw;
         flex: 50%;
     }
-}
+} */
