@@ -1,0 +1,17 @@
+.blogs-main {
+    height: auto;
+
+}
+
+.blogs-main div {
+    text-align: center;
+}
+
+/* Portrait Styling */
+.portrait-photo-box {
+    margin: 0.5em;
+}
+.portrait-photo-box img {
+    border: 3px solid black;
+    border-radius: 0%;
+}

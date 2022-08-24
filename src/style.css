@@ -1,51 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+
+
+
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* DELETE THIS BELOW IF REQUIRED */
-    height: 100%; 
 }
 
+/* @font-face {
+    font-family: myFont;
+    src: url(sansation_light.woff);
+  } */
+
 body {
-    /* DELETE THIS BELOW IF REQUIRED */
-    min-height: 100vh; 
     display: flex;
+    height: 100vh;
     flex-direction: column;
     background-image:url(images/adam-kool-ndN00KmbJ1c-unsplash\ 1920x1280\ MEDIUM.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-
+    align-items: center;
 }
 .background-color-theme {
-    background: grey;        
+    background-color: grey ;
+    opacity: 0.8; 
 }
 /* .background-image {
 
 } */
+/* for mobile, change to display block OR
+    use flex rows
+*/
 header {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     border-bottom: 4px solid black;
     padding: 0.5rem;
-    max-height: 15%;
+    width: 100%;
+    font-family: 'Merriweather', serif;
 }
-/* TURN INTO BUTTONS  */
+
+h1 {
+    font-size: 1.5em;
+    color: black;
+}
+/* Navigation styling */
 nav {
     display: flex;
-    justify-content: space-around;
-    min-width: 220px;
-    min-height: 25px;
-    max-height: 50%;  
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
 }
 nav a {
-    border: 2px solid black;
+    border: 2px solid white;
+    color: #977a31;
+    text-decoration: none;
+    background-color: black;
     text-align: center;
-    min-width: 25%;
-    min-height: 20%;      
-    border-radius: 10%;
+    justify-content: center;
+    min-width: fit-content;
+    border-radius: 15%;
+    padding: 0.2em;
+    margin: 0.2em;
     }
 
 /* CHANGE FONT TYPE TO SOMETHING COOL */
@@ -54,53 +76,55 @@ nav a {
     flex-direction: column;
     align-items: center;
 }
-h1 {
-    font-size: 1.2rem;
-    color: black;
-}
+
 
 
 /* Main styling */
-main .homepage{
+
+main {
     display: flex;
-    min-height: 50%;
+    height: 100%;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     
 }
-main div p {
-    border: 3px solid black;
-    text-align: center;
-    flex-wrap: wrap;
-    padding: 1rem;
-    height: auto;
-}
-
 
 /* Portrait Styling */
 .portrait-photo-box {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50%;
+    margin: 1.5em;
 }
 .portrait-photo-box img {
+    border: 3px solid black;
     border-radius: 50%;
-    width: 50%;
-    height: 100%;
-    padding: 0.5rem;
 }
 
+.quote-container {
+
+    width: 80%;
+}
+.quote-container p {
+    min-width: fit-content;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 0.75rem;
+    height: auto;
+    /* margin-bottom: 0.5em; */
+    border-radius: 15%;
+    font-family: 'Merriweather', serif;
+}
 
 /* Socials styling */
 .socials-container {
     display: flex;
     flex-direction: column;
     text-align: center;
-    align-items: center;
+    align-items: bottom;
     justify-content: center;
-    max-height: 10%;
+    width: 12em;
 }
 /* Fix this socials box */
 
@@ -109,25 +133,30 @@ main div p {
     align-items: center;
     justify-content: space-around;
     border: 3px solid black;
-    min-width: 156px;
-    min-height: 10%;
+    width: 100%;
+    padding: 0.3rem;
+}
+.email-container {
+    min-width: fit-content;
+}
+
+.email-container p {
+    border-bottom: 0px;
+    font-size: 1rem;    
 }
 .logo-container {
-    min-width: 300px;
+    min-width: fit-content;
+    justify-content: center;
 }
-.socials-container div p {
-    border-bottom: 0px;
-    font-size: 1em;    
-}
-#logo {
+.logo {
     align-items: center;
-    min-width: 20%;
-    min-height: 20%;    
+    /* min-width: 20px;
+    min-height: 20px; */
+    width: 20%;
+    height: 90%;
 }
-
 
 /* Footer styling */
-
 
 footer {
     display: flex;
@@ -135,7 +164,8 @@ footer {
     text-align: center;
     font-size: 1rem;
     border-top: 2px solid black;
-    max-height: 5%;
+    width: 100%;
+    min-width: fit-content;
 }
 
 /* Responsive Design */
@@ -145,12 +175,70 @@ footer {
 
 
 /* Tablet Size Screen*/
-@media screen and (min-width: 768px) and (max-width: 1023px){
-
+@media screen and (min-width: 700px) and (max-width: 1023px){
+    header {
+        height: 10em;
     }
+    header p {
+        margin: 1em;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    nav a {
+        flex: 1;
+    }
+    .portrait-photo-box img{
+        height: auto;
+        width: 20em;
+    }
+    .quote-container {
+        width: 20em;
+        margin: 1em;
+    }
+    .quote-container p {
+        font-size: 1.2em;
+    }
+}
 
 /* Desktop Size Screen*/
 @media screen and (min-width: 1024px){
+    header {
+        height: 10em;
+        flex-direction: row;
+    }
+    header p {
+        margin: 1em;
+    }
+    nav {
+        height: 80%;
+        width: 40%;
+    }
+    nav a {
+        line-height: 4em;
+        flex: 1;
+    }
+    main {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .portrait-photo-box img{
+        height: auto;
+        width: 20em;
+    }
+    .quote-container {
+        margin: 5em;
+        width: 20em;
+    }
+    .quote-container p {
+        font-size: 1.2em;
+    }
+    .socials-container {
+        width: 20em;
+    }
+}
 
-    
+@media screen and (min-width: 1024px) {
+
 }
