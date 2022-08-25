@@ -15,3 +15,15 @@
     border: 3px solid black;
     border-radius: 0%;
 }
+
+
+
+
+
+
+
+/* HAS ISSUES WHEN OVER 1200px wide */
+
+/* @media screen and (min-width: 1024px) {
+
+} */

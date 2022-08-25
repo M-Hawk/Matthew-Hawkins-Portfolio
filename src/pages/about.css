@@ -1,0 +1,49 @@
+
+
+
+main section{
+    margin: 1em;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+.para {
+    font-family: 'GFS Neohellenic', sans-serif;
+    font-size: 1.2em;
+    padding: 0.5em;
+}
+
+.resume-container {
+    border-radius: 25%;
+    width: 3em;
+}
+.resume {
+    padding: 0.3em;
+    min-width: fit-content;
+    width: 4em;
+}
+
+
+@media screen and (min-width: 700px) and (max-width: 1023px){
+    .resume-container {
+        width: 7em;
+    }
+    .resume {
+        width: 6em;
+    }    
+}
+@media screen and (min-width: 1024px){
+    /* main {
+        flex-wrap: wrap;
+    } */
+    main-section{
+    flex-direction: row;
+
+    }
+
+}
+

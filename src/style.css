@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic&display=swap');
 
 
 
@@ -124,7 +124,6 @@ main {
     text-align: center;
     align-items: bottom;
     justify-content: center;
-    width: 12em;
 }
 /* Fix this socials box */
 
@@ -150,8 +149,6 @@ main {
 }
 .logo {
     align-items: center;
-    /* min-width: 20px;
-    min-height: 20px; */
     width: 20%;
     height: 90%;
 }
@@ -169,10 +166,6 @@ footer {
 }
 
 /* Responsive Design */
-
-/* Portrait Mobile Scren*/
-/* REMEMBER SHOULD BE MOBILE FIRST, SO ADD ABOVE AS ITS PRIMARILY DESKTOP TO THESE QUERIES BELOW*/
-
 
 /* Tablet Size Screen*/
 @media screen and (min-width: 700px) and (max-width: 1023px){
@@ -234,11 +227,5 @@ footer {
     .quote-container p {
         font-size: 1.2em;
     }
-    .socials-container {
-        width: 20em;
-    }
-}
+} 
 
-@media screen and (min-width: 1024px) {
-
-}
