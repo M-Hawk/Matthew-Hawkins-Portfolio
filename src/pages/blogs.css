@@ -1,19 +1,46 @@
-.blogs-main {
-    height: auto;
 
+body {
+    background-image:url(/src/images/kaushik-panchal-0juC5JIhPks-unsplash.jpg);
+    min-width: fit-content;
 }
 
+.blogs-main {
+    height: auto;
+}
+
+.blog-para-theme {
+    background-color: #88abc0;
+    opacity: 0.85;
+}
 .blogs-main div {
     text-align: center;
+}
+/* Blog Para Styling */
+
+.para {
+    margin: 0.5em;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lora', serif;
+    font-size: 1.2em;
+    padding: 0.5em;
 }
 
 /* Portrait Styling */
 .portrait-photo-box {
-    margin: 0.5em;
+    width: 80%;
+ 
 }
 .portrait-photo-box img {
     border: 3px solid black;
     border-radius: 0%;
+    margin: 1em;
+    width: 15em;
+    height: 100%;
 }
 
 
@@ -22,11 +49,16 @@
 
 
 
-/* HAS ISSUES WHEN OVER 1200px wide */
 
 @media screen and (min-width: 1024px) {
-    main {
+    
+    body {
+        min-height: fit-content;
+    }
+    
+    .blogs-main {
         display: grid;
+        height: 100%;
         grid-template-columns: auto auto auto auto auto;
         grid-template-rows: auto auto;
     }
@@ -70,4 +102,19 @@
         grid-column: 5;
         grid-row: 2;
     }
+
+    .portrait-photo-box img {
+        height: 10em;
+        width: 10em;
+        margin-bottom: 0;
+    }
+}
+/* Tweak height for huge screens */
+@media screen and (min-width: 1900px) {
+    
+    .portrait-photo-box img {
+        height: 10em;
+        width: 15em;
+    }
+
 }

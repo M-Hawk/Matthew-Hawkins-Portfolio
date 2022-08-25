@@ -1,11 +1,19 @@
 
 
 
+body {
+    background-image:url(/src/images/rob-mulally-oacHEtIlXsA-unsplash.jpg);
+}
+
+.about-color-theme {
+        background-color: #5a5135 ;
+        opacity: 0.9; 
+}
+/* Main Styling */
+
 main {
 margin-top: 0.5em;
 }
-
-
 
 .para {
     margin: 0.5em;
@@ -19,6 +27,8 @@ margin-top: 0.5em;
     font-size: 1.2em;
     padding: 0.5em;
 }
+
+/* Resume Styling */
 
 .resume-container {
     margin: 0.5em;
@@ -37,6 +47,7 @@ margin-top: 0.5em;
     width: 4em;
 }
 
+/* Tablet Styling*/
 
 @media screen and (min-width: 700px) and (max-width: 1023px){
 
@@ -48,11 +59,15 @@ margin-top: 0.5em;
         width: 6em;
     }    
 }
+
+/* Desktop Styling*/
+
 @media screen and (min-width: 1024px){
     main {
         flex-direction: row;
     }
     .para {
+        font-size: 1.5em;
         height: 70%;
     }
     .para h2 {
