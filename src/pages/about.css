@@ -1,25 +1,35 @@
 
 
 
-main section{
-    margin: 1em;
+main {
+margin-top: 0.5em;
+}
+
+
+
+.para {
+    margin: 0.5em;
     border-radius: 10%;
     display: flex;
     flex-direction: column;
     width: 80%;
     align-items: center;
     justify-content: center;
-}
-
-.para {
     font-family: 'GFS Neohellenic', sans-serif;
     font-size: 1.2em;
     padding: 0.5em;
 }
 
 .resume-container {
+    margin: 0.5em;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
     border-radius: 25%;
-    width: 3em;
+    width: 5em;
 }
 .resume {
     padding: 0.3em;
@@ -29,7 +39,9 @@ main section{
 
 
 @media screen and (min-width: 700px) and (max-width: 1023px){
+
     .resume-container {
+        margin-bottom: 2em;
         width: 7em;
     }
     .resume {
@@ -37,13 +49,21 @@ main section{
     }    
 }
 @media screen and (min-width: 1024px){
-    /* main {
-        flex-wrap: wrap;
-    } */
-    main-section{
-    flex-direction: row;
-
+    main {
+        flex-direction: row;
     }
-
+    .para {
+        height: 70%;
+    }
+    .para h2 {
+        margin: 0.5m;
+    }
+    .resume-container {
+        height: 40%;
+        width: 10em;
+    }
+    .resume {
+        width: 6em;
+    }    
 }
 
