@@ -40,8 +40,18 @@ body {
     font-size: 1.2em;
     padding: 0.5em;
 }
+/* Photo Animation */
 
-/* Portrait Styling */
+.photo-animation {
+    transition-property: all; 
+    transition-duration: 0.3s; 
+    transition-timing-function: ease;
+}
+
+.photo-animation:hover { 
+    transform: scale(1.1) 
+}
+/* Photo Styling */
 .portrait-photo-box {
     width: 80%;
     margin-bottom: 0;
