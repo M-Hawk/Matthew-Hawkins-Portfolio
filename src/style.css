@@ -65,7 +65,17 @@ nav a {
     margin: 0.2em;
     }
 
-/* CHANGE FONT TYPE TO SOMETHING COOL */
+/* Nav Link Animation */
+
+.link-animation {
+    box-shadow: inset 0 0 0 0 #977a31;
+    transition: color .3s ease-in-out, box-shadow .2s ease-in-out;    
+}
+.link-animation:hover {
+    box-shadow: inset 300px 0 0 0 #977a31;
+    color: white;
+  }
+
 .name-intro {
     display: flex;
     flex-direction: column;
@@ -94,6 +104,8 @@ main {
 }
 .portrait-photo-box img {
     border: 3px solid black;
+    width: 15em;
+    height: 15em;
     border-radius: 50%;
 }
 
@@ -107,11 +119,20 @@ main {
     flex-wrap: wrap;
     padding: 0.75rem;
     height: auto;
-    /* margin-bottom: 0.5em; */
     border-radius: 15%;
     font-family: 'Merriweather', serif;
 }
 
+/* Socials Animation */
+.logo-animation {
+    transition-property: all; 
+    transition-duration: 0.3s; 
+    transition-timing-function: ease;
+}
+
+.logo-animation:hover { 
+    transform: scale(1.3) 
+}
 /* Socials styling */
 .socials-container {
     display: flex;
@@ -120,7 +141,6 @@ main {
     align-items: bottom;
     justify-content: center;
 }
-/* Fix this socials box */
 
 .socials-container div{
     display: flex;
@@ -177,7 +197,7 @@ footer {
         flex: 1;
     }
     .portrait-photo-box img{
-        height: auto;
+        height: 20em;
         width: 20em;
     }
     .quote-container {

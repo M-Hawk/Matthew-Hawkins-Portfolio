@@ -1,0 +1,46 @@
+body {
+    background-image:url(/src/images/shifaaz-shamoon-oR0uERTVyD0-unsplash.jpg);
+}
+
+.background-color-theme {
+    background-color: #016f81;
+}
+
+/* nav styling */
+
+.project-nav-color {
+    color: #016f81;
+} 
+
+/* Nav animation */
+.project-nav-animation {
+    box-shadow: inset 0 0 0 0 #016f81;
+}
+.project-nav-animation:hover {
+    box-shadow: inset 300px 0 0 0 #016f81;
+    border: 2px solid black;
+}
+
+
+
+.quote-container {
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 0.75rem;
+    height: auto;
+    /* margin-bottom: 0.5em; */
+    border-radius: 15%;
+    font-family: 'Merriweather', serif;
+
+}
+
+
+
+
+/* Photo Styling */
+@media screen and (min-width: 1024px){
+    .portrait-photo-box img{
+        width: 22em;
+        height: 22em;
+    }
+}

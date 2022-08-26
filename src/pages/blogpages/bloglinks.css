@@ -1,0 +1,87 @@
+
+/* Body Styling */
+
+body {
+    height:fit-content;
+}
+/* Background Styling */
+
+.alien-background {
+    background-image:url(/src/images/max-bohme-2DYmvQ_gvS8-unsplash.jpg);
+}
+.covid-background {
+    background-image:url(/src/images/fusion-medical-animation-rnr8D3FNUNY-unsplash.jpg);
+}
+.crypto-background {
+    background-image:url(/src/images/kanchanara-fsSGgTBoX9Y-unsplash.jpg);
+}
+.mars-background {
+    background-image:url(/src/images/nicolas-lobos-kGtFjYdm7DI-unsplash.jpg);
+}
+.fox-background {
+    background-image:url(/src/images/keghan-crossland-F1oeYBKJsdw-unsplash.jpg);
+}
+/* Main Styling */ 
+
+
+/* Portrait Styling */
+.portrait-photo-box {
+    width: 80%;
+    margin-bottom: 0;
+    padding-bottom: 1em; 
+}
+.portrait-photo-box img {
+    border: 3px solid white;
+    border-radius: 0%;
+    margin: 1em;
+    width: 15em;
+    height: 100%;
+}
+
+/* Blog Paragraph Styling */
+
+.quote-container {
+    width: fit-content;
+    margin: 0.5em;
+    font-size: 1.2em;
+    padding: 0.5em;
+}
+.quote-container h2 {
+    text-align: center;
+    font-size: 2em;
+}
+.quote-container p{
+    margin: 1em;
+}
+
+/* Tablet Size Screen*/
+
+
+@media screen and (min-width: 700px) and (max-width: 1023px){
+
+    main {
+        width: 80%;
+    }
+
+    .quote-container p{
+        width: fit-content;
+    }
+    .portrait-photo-box img{
+        height: auto;
+        width: 20em;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    nav a {
+        line-height: 6em;
+    }
+
+    main {
+        align-items: flex-start;
+    }
+    .portrait-photo-box img{
+        width: 30em;
+    }
+
+}

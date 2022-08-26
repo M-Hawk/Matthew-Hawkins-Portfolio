@@ -4,12 +4,23 @@ body {
     min-width: fit-content;
 }
 
+.blogs-nav-color {
+    color: #88abc0;
+}
+/* Nav animation */
+.blog-nav-animation {
+    box-shadow: inset 0 0 0 0 #88abc0;
+}
+.blog-nav-animation:hover {
+    box-shadow: inset 300px 0 0 0 #88abc0;
+    border: 2px solid black;
+}
 .blogs-main {
     height: auto;
 }
 
 .blog-para-theme {
-    background-color: #88abc0;
+    background-color: lightblue;
     opacity: 0.85;
 }
 .blogs-main div {
@@ -33,29 +44,65 @@ body {
 /* Portrait Styling */
 .portrait-photo-box {
     width: 80%;
- 
+    margin-bottom: 0;
+    padding-bottom: 1em; 
 }
 .portrait-photo-box img {
-    border: 3px solid black;
+    border: 3px solid #88abc0;
     border-radius: 0%;
     margin: 1em;
     width: 15em;
-    height: 100%;
 }
 
+/* Tablet Size Screen */
 
+@media screen and (min-width: 700px) and (max-width: 1199px){
+    header {
+        height: 10em;
+        flex-direction: column;
+    }
+    header p {
+        margin: 1em;
+    }
+    nav {
+        width: 90%;
+        height: normal;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    nav a {
+        line-height: normal;
+        flex: 1;
+    }
+    main {
+        width: normal;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .portrait-photo-box img{
+        height: auto;
+        width: 20em;
+    }
+    .quote-container {
+        width: 20em;
+        margin: 1em;
+    }
+    .quote-container p {
+        font-size: 1.2em;
+    }
+}
 
+/* Desktop Size Screen*/
 
-
-
-
-
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
     
     body {
         min-height: fit-content;
     }
-    
+    .para {
+        width: fit-content;
+    }
     .blogs-main {
         display: grid;
         height: 100%;
@@ -103,6 +150,9 @@ body {
         grid-row: 2;
     }
 
+    .portrait-photo-box {
+        width: normal;
+    }
     .portrait-photo-box img {
         height: 10em;
         width: 10em;
