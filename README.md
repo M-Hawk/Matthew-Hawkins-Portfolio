@@ -80,3 +80,4 @@ This Website was built using
 - HTML
 - CSS (Flexbox & Grid Displays, Transitions and Animations)
 - Hosted via Netlify
+- Wireframes & Sitemap were constructed using Figma
