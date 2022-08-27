@@ -7,19 +7,19 @@ body {
 /* Background Styling */
 
 .alien-background {
-    background-image:url(/src/images/max-bohme-2DYmvQ_gvS8-unsplash.jpg);
+    background-image:url(../../images/max-bohme-2DYmvQ_gvS8-unsplash.jpg);
 }
 .covid-background {
-    background-image:url(/src/images/fusion-medical-animation-rnr8D3FNUNY-unsplash.jpg);
+    background-image:url(../../images/fusion-medical-animation-rnr8D3FNUNY-unsplash.jpg);
 }
 .crypto-background {
-    background-image:url(/src/images/kanchanara-fsSGgTBoX9Y-unsplash.jpg);
+    background-image:url(../../images/kanchanara-fsSGgTBoX9Y-unsplash.jpg);
 }
 .mars-background {
-    background-image:url(/src/images/nicolas-lobos-kGtFjYdm7DI-unsplash.jpg);
+    background-image:url(../../images/nicolas-lobos-kGtFjYdm7DI-unsplash.jpg);
 }
 .fox-background {
-    background-image:url(/src/images/keghan-crossland-F1oeYBKJsdw-unsplash.jpg);
+    background-image:url(../../images/keghan-crossland-F1oeYBKJsdw-unsplash.jpg);
 }
 /* Main Styling */ 
 

@@ -39,6 +39,8 @@ Flexbox and Grid Displays were utilised to simplify the layout of the webpages, 
 
 ![Blog Wireframe](/docs/Blogs%20Page%20Wireframe.png)
 
+![Blog Sample Wireframe](/docs/Blog%20Sample%20Wireframe.png)
+
 ### Home
 
 ![Home Page](/docs/Screenshot%202022-08-27%20at%2014-00-28%20Home.png)
@@ -61,7 +63,7 @@ Flexbox and Grid Displays were utilised to simplify the layout of the webpages, 
 
 ## Target Audience
 
-This Website is aimed to showcase my skill-set to prospective Employers. Provide inspiration to other Aspiring Web Developers and to more Senior Web Developers for guidance and critique.
+This Website is aimed to showcase my skill-set to prospective Employers, and provide inspiration to other Aspiring Web Developers.
 
 ## Tech Stack
 
