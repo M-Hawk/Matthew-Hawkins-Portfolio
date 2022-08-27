@@ -33,11 +33,19 @@ Flexbox and Grid Displays were utilised to simplify the layout of the webpages, 
 
 ### Wireframes
 
+#### Home & Projects Wireframe
+
 ![Home/Projects Wireframe](/docs/Home_Projects%20Page%20Wireframe.png)
+
+#### About Wireframe
 
 ![About Wireframe](/docs/About%20Page%20Wireframe.png)
 
+#### Blog Wireframe
+
 ![Blog Wireframe](/docs/Blogs%20Page%20Wireframe.png)
+
+#### Blog Template Wireframe
 
 ![Blog Sample Wireframe](/docs/Blog%20Sample%20Wireframe.png)
 
