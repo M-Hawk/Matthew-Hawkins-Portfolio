@@ -1,5 +1,6 @@
 
 
+/* Body Styling */
 
 body {
     background-image:url(/src/images/rob-mulally-oacHEtIlXsA-unsplash.jpg);
@@ -11,6 +12,7 @@ body {
 }
 
 /* Nav Animation */
+
 .about-nav-animation {
     box-shadow: inset 0 0 0 0 #5a5135;
 }
@@ -18,10 +20,13 @@ body {
     box-shadow: inset 300px 0 0 0 #5a5135;
     border: 2px solid white;
 }
+
 /* Nav Styling */
+
 .about-nav-color {
     color: #497a49;
 }
+
 /* Main Styling */
 
 main {
@@ -38,7 +43,7 @@ height: fit-content;
     align-items: center;
     justify-content: flex-start;
     font-family: 'GFS Neohellenic', sans-serif;
-    color: black;
+    color: #ce9b50;
     padding: 3em;
     height: fit-content;
 }
@@ -51,7 +56,9 @@ height: fit-content;
 .resume:hover { 
     transform: scale(1.1) 
 }
+
 /* Resume Styling */
+
 .resume-container {
     margin: 0.5em;
     border-radius: 10%;
@@ -71,7 +78,7 @@ height: fit-content;
 
 }
 
-/* Tablet Styling*/
+/* Tablet Size Screen*/
 
 @media screen and (min-width: 700px) and (max-width: 1023px){
 
@@ -84,25 +91,32 @@ height: fit-content;
     }    
 }
 
-/* Desktop Styling*/
+/* Desktop Size Screen*/
 
 @media screen and (min-width: 1024px){
     main {
         flex-direction: row;
+        margin-top: 0;
+        height: 100%;
     }
     .para {
         font-size: 1em;
         height: 90%;
+        padding-top: 1em;
+        margin-bottom: 0;
     }
     .para h2 {
         margin: 0.5m;
+        /* padding-top: 0; */
+    }
+
+    .para p {
+        font-size: 1.2em;
     }
     .resume-container {
-        height: 40%;
+        margin-top: 0;
+        height: fit-content;
         width: 10em;
     }
-    .resume {
-        width: 6em;
-    }    
 }
 

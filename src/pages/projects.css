@@ -22,7 +22,7 @@ body {
 }
 
 
-
+/* Body Styling */
 .quote-container {
     text-align: center;
     flex-wrap: wrap;
@@ -35,8 +35,6 @@ body {
 }
 
 
-
-
 /* Photo Styling */
 @media screen and (min-width: 1024px){
     .portrait-photo-box img{
@@ -44,3 +42,5 @@ body {
         height: 22em;
     }
 }
+
+/* Inherits Tablet & Destop Sizing from Style.css */

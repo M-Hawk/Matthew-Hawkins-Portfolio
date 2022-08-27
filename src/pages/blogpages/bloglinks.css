@@ -56,7 +56,6 @@ body {
 
 /* Tablet Size Screen*/
 
-
 @media screen and (min-width: 700px) and (max-width: 1023px){
 
     main {
@@ -71,6 +70,8 @@ body {
         width: 20em;
     }
 }
+
+/* Desktop Size Screen*/
 
 @media screen and (min-width: 1024px){
     nav a {

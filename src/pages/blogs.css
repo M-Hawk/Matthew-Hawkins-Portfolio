@@ -1,9 +1,10 @@
 
+/* Body Styling */
 body {
     background-image:url(/src/images/kaushik-panchal-0juC5JIhPks-unsplash.jpg);
     min-width: fit-content;
 }
-
+/* Nav Styling */
 .blogs-nav-color {
     color: #88abc0;
 }
@@ -15,6 +16,9 @@ body {
     box-shadow: inset 300px 0 0 0 #88abc0;
     border: 2px solid black;
 }
+
+/* Blog Styling */
+
 .blogs-main {
     height: auto;
 }
@@ -169,7 +173,8 @@ body {
         margin-bottom: 0;
     }
 }
-/* Tweak height for huge screens */
+/* Huge screens */
+
 @media screen and (min-width: 1900px) {
     
     .portrait-photo-box img {
