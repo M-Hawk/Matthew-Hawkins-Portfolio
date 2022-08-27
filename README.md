@@ -1,7 +1,7 @@
 
 # T1A2 Portfolio
 
-[Portfolio Website](https://github.com/)
+[Portfolio Website](https://hawkinsportfolio.netlify.app/)
 
 [Github Repository](https://github.com/M-Hawk/MatthewHawkins_T1A2)
 
@@ -27,7 +27,7 @@ Flexbox and Grid Displays were utilised to simplify the layout of the webpages, 
 
 ## Sitemap
 
-![Sitemap](/docs/Portfolio%20Sitemap.png)
+![Sitemap](docs/Portfolio%20Sitemap.png)
 
 ## Screenshots
 
@@ -35,39 +35,39 @@ Flexbox and Grid Displays were utilised to simplify the layout of the webpages, 
 
 #### Home & Projects Wireframe
 
-![Home/Projects Wireframe](/docs/Home_Projects%20Page%20Wireframe.png)
+![Home/Projects Wireframe](docs/Home_Projects%20Page%20Wireframe.png)
 
 #### About Wireframe
 
-![About Wireframe](/docs/About%20Page%20Wireframe.png)
+![About Wireframe](docs/About%20Page%20Wireframe.png)
 
 #### Blog Wireframe
 
-![Blog Wireframe](/docs/Blogs%20Page%20Wireframe.png)
+![Blog Wireframe](docs/Blogs%20Page%20Wireframe.png)
 
 #### Blog Template Wireframe
 
-![Blog Sample Wireframe](/docs/Blog%20Sample%20Wireframe.png)
+![Blog Sample Wireframe](docs/Blog%20Sample%20Wireframe.png)
 
 ### Home
 
-![Home Page](/docs/Screenshot%202022-08-27%20at%2014-00-28%20Home.png)
+![Home Page](docs/Screenshot%202022-08-27%20at%2014-00-28%20Home.png)
 
 ### About
 
-![About Page](/docs/Screenshot%202022-08-27%20at%2014-41-13%20About.png)
+![About Page](docs/Screenshot%202022-08-27%20at%2014-41-13%20About.png)
 
 ### Projects
 
-![Projects Page](/docs/Screenshot%202022-08-27%20at%2014-41-28%20Projects.png)
+![Projects Page](docs/Screenshot%202022-08-27%20at%2014-41-28%20Projects.png)
 
 ### Blogs
 
-![Blogs Page](/docs/Screenshot%202022-08-27%20at%2014-41-39%20Blogs.png)
+![Blogs Page](docs/Screenshot%202022-08-27%20at%2014-41-39%20Blogs.png)
 
 ### Blog Sample
 
-![Blog Sample Page](/docs/Screenshot%202022-08-27%20at%2014-43-56%20BlogSample.png)
+![Blog Sample Page](docs/Screenshot%202022-08-27%20at%2014-43-56%20BlogSample.png)
 
 ## Target Audience
 
