@@ -5,6 +5,8 @@
 
 [Github Repository](https://github.com/M-Hawk/MatthewHawkins_T1A2)
 
+[Portfolio Slidedeck Presentation](https://vimeo.com/743868099/7ffb0658f3)
+
 ## Purpose
 
 This Website is designed to demonstrate my skills in basic Web structure and styling to future Employers as an aspiring Junior Web Developer.
@@ -21,7 +23,7 @@ Flexbox and Grid Displays were utilised to simplify the layout of the webpages, 
 
 - Projects: This is a page I intent to fill with projects after completing this website.
 
-- Blogs: This pages lists five blogs, displayed in a grid format, that link to abritrary blogs with clickable pictures utilising animations.
+- Blogs: This pages lists five blogs, displayed in a grid format, that link to blogs with clickable pictures utilising animations. Please note the titles of the blogs are purely arbritrary.
   
 - Blog-links: These five identical layout pages display blog information as well as featuring their own personalised background.
 
@@ -51,23 +53,23 @@ Flexbox and Grid Displays were utilised to simplify the layout of the webpages, 
 
 ### Home
 
-![Home Page](docs/Screenshot%202022-08-27%20at%2014-00-28%20Home.png)
+![Home Page](/docs/Home.png)
 
 ### About
 
-![About Page](docs/Screenshot%202022-08-27%20at%2014-41-13%20About.png)
+![About Page](/docs/About.png)
 
 ### Projects
 
-![Projects Page](docs/Screenshot%202022-08-27%20at%2014-41-28%20Projects.png)
+![Projects Page](/docs/Projects.png)
 
 ### Blogs
 
-![Blogs Page](docs/Screenshot%202022-08-27%20at%2014-41-39%20Blogs.png)
+![Blogs Page](/docs/Blogs.png)
 
 ### Blog Sample
 
-![Blog Sample Page](docs/Screenshot%202022-08-27%20at%2014-43-56%20BlogSample.png)
+![Blog Sample Page](/docs/BlogSample.png)
 
 ## Target Audience
 
